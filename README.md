@@ -6,7 +6,6 @@ control your BlinkM LED with node.js
 
 ````bash
 $ npm install blinkm
-
 ````
 
 # Example
