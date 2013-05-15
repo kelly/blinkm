@@ -1,0 +1,17 @@
+{
+  "name": "blinkm",
+  "version": "0.0.1",
+  "description": "control your BlinkM LED with node.js",
+  "main": "main.js",
+  "author": "Kelly Korevec",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/korevec/blinkm.git"
+  },
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "1.2.4",
+    "coffee-script": "1.3.3",
+    "i2c": "0.1.1"
+  }
+}
