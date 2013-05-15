@@ -54,7 +54,8 @@ class Pixel
     @_send FADE_TO_HSB, [h, s, b]
 
   _send: (cmd, values) ->
-    @wire.writeBytes cmd, values
+    @wire.writeBytes cmd, values, (err) ->
+      console.log err
 
   _read: (cmd, length, callback) ->
     @wire.readBytes cmd, length, callback

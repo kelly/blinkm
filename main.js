@@ -1,4 +1,4 @@
 require('coffee-script');
-var i2c = require('./lib/blinkm');
+var blinkm = require('./lib/blinkm');
 
 module.exports = blinkm;
