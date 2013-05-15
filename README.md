@@ -17,6 +17,6 @@ var address = 0x05;
 
 var pixel = new BlinkM(address, '/dev/i2c-1');
 
-pixel.setRGB(255,0,0); // red
+pixel.setRGB(255, 0, 0); // red
 pixel.off();
 ````
