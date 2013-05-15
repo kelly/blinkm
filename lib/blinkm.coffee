@@ -59,3 +59,6 @@ class Pixel
 
   _read: (cmd, length, callback) ->
     @wire.readBytes cmd, length, callback
+
+
+module.exports = Pixel
